@@ -156,3 +156,13 @@ Please read the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines before opening iss
 ## 📄 License
 
 MIT License
+
+
+---
+
+## 🤖 AI-Assisted Development
+
+Parts of this project – including sections of the code and the README – were created with the assistance of AI tools such as ChatGPT. All AI-generated content was reviewed and adapted to fit the context and goals of the project.
+
+Please note that AI-generated code may be based on publicly available training data. Care has been taken to avoid including copyrighted or license-restricted material. If you have any concerns or questions regarding licensing, feel free to open an issue.
+
