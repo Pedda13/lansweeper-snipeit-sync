@@ -147,7 +147,9 @@ pytest -v
 
 ## 🤝 Contributing
 
-PRs welcome.
+Contributions are welcome.  
+Please read the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines before opening issues or pull requests.
+
 
 ---
 
