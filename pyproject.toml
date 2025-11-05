@@ -1,0 +1,37 @@
+[project]
+name = "ls-snipe-sync"
+version = "0.1.0"
+description = "Lansweeper → Snipe-IT sync engine (On-Prem to On-Prem)."
+authors = [ { name="Peter" } ]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+
+dependencies = [
+"pyodbc",
+"requests",
+"toml",
+]
+
+
+[project.optional-dependencies]
+dev = [
+"pytest",
+"black",
+"flake8",
+"isort"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,19 @@
+[lansweeper]
+connection_string = "DRIVER={ODBC Driver 18 for SQL Server};SERVER=SERVER;DATABASE=lansweeperdb;UID=user;PWD=pass;Encrypt=no"
+
+
+[snipeit]
+base_url = "https://snipe.it"
+token = "TOKEN"
+
+
+[filter]
+allowed_ous = ["OU=Laptops,DC=corp,DC=local"]
+
+
+[mapping]
+name = "AssetName"
+serial = "SerialNumber"
+manufacturer = "Manufacturer"
+model = "Model"
+mac_addresses = "MacAddress"
